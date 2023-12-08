@@ -13,6 +13,7 @@
     "format:check": "prettier --check ."
   },
   "dependencies": {
+    "@faker-js/faker": "^8.3.1",
     "@vue/eslint-config-prettier": "^8.0.0",
     "@vueuse/firebase": "^10.6.0",
     "axios": "^1.6.1",
