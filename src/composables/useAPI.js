@@ -28,13 +28,13 @@ const getEmployees = async () => {
   loading.value = false
 }
 
-const getDepartment = async (departmentId) => {
+/*const getDepartment = async (departmentId) => {
   const { data } = await api.get(`/api/departments/${departmentId}`)
   return data
-}
+}*/
 
 const useAPI = () => {
-  return { employees, pages, activePage, loading, pageSize, getEmployees, getDepartment }
+  return { employees, pages, activePage, loading, pageSize, getEmployees }
 }
 
 export default useAPI
